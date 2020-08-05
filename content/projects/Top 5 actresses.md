@@ -10,5 +10,5 @@ tech:
   - CSS
   - JQuery
 company: ''
-showInProjects: true
+showInProjects: false
 ---

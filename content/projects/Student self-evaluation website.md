@@ -8,7 +8,7 @@ android: ''
 tech:
   - ASP.NET
 company: 'Cégep SJSR'
-showInProjects: true
+showInProjects: false
 ---
 
 Student self-evaluation website for sports class

@@ -8,5 +8,5 @@ android: ''
 tech:
   - VHDL
 company: "Bachelor's degree"
-showInProjects: true
+showInProjects: false
 ---

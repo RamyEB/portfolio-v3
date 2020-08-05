@@ -8,7 +8,7 @@ android: ''
 tech:
   - Python
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 Multiple choice generator for the teachers of my high school.

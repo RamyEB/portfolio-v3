@@ -1,13 +1,13 @@
 ---
-date: '2019-1-6'
-title: 'Portfolio v2'
+date: '2020-1-1'
+title: "Chat between two users"
 github: ''
 external: ''
 ios: ''
 android: ''
 tech:
-  - HTML
-  - CSS
+  - Socket.io
 company: ""
 showInProjects: false
 ---
+

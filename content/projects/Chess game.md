@@ -8,5 +8,5 @@ android: ''
 tech:
   - Java
 company: 'Two-year degree'
-showInProjects: true
+showInProjects: false
 ---

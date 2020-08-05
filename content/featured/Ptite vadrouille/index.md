@@ -11,7 +11,7 @@ tech:
   - Ajax
   - Leaflet
   - MySQL
-showInProjects: true
+showInProjects: false
 ---
 
 Website in the form of a self-completion mini-game, designed to guide and motivate tourism in France. The objective is to visit as many places as possible by completing a map.

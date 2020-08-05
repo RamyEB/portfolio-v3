@@ -14,7 +14,7 @@ tech:
   - Jest
   - MaterialUI
 company: 'IHR Télécom Canda'
-showInProjects: true
+showInProjects: false
 ---
 
 Enterprise Ressource Planning software made in Canada for IHR Telecom with a team of 14 developers divided into backend and frontend. Then continued in the company.

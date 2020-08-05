@@ -8,7 +8,7 @@ android: ''
 tech:
   - Python
   - Turtle
-company: ""
-showInProjects: true
+company: "Bachelor's degree"
+showInProjects: false
 ---
 Hanoi Tower Game Solver in Python

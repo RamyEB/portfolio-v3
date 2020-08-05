@@ -42,7 +42,7 @@ module.exports = {
       url: '/#contact',
     },
     {
-      name: 'All projects',
+      name: 'All my projects',
       url: '/archive',
     },
   ],

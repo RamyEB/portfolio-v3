@@ -1,14 +1,15 @@
 ---
-date: '2018-11-15'
-title: 'Simplified paint software'
+date: '2020-1-2'
+title: "Football World Cup Simulator"
 github: ''
 external: ''
 ios: ''
 android: ''
 tech:
   - Java
-  - Swing
   - JUnit
-company: 'Two-year degree'
+  - Swing
+company: ""
 showInProjects: false
 ---
+

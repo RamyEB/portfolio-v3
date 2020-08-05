@@ -8,7 +8,7 @@ android: ''
 tech:
   - Java
 company: 'Two-year degree'
-showInProjects: true
+showInProjects: false
 ---
 
 Development of an offline role-playing video game under Java using the UML analysis method. I tackled the subjects of inventory and random map generation. Being alone I had to be rigorous and organized.

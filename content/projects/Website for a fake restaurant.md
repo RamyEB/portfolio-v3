@@ -9,7 +9,7 @@ tech:
   - HTML
   - CSS
 company: 'Two-year degree'
-showInProjects: true
+showInProjects: false
 ---
 
 Website created for a fake restaurant respecting a graphic charter and functional requirements. This project allowed me to better understand customer requests and expectations as well as to get an idea of the user experience.

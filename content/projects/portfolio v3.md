@@ -1,13 +1,15 @@
 ---
-date: '2019-1-6'
-title: 'Portfolio v2'
+date: '2020-1-7'
+title: "Portfolio v3"
 github: ''
 external: ''
 ios: ''
 android: ''
 tech:
-  - HTML
-  - CSS
+  - JavaScript
+  - Gatsby
+  - ReactJS
 company: ""
 showInProjects: false
 ---
+

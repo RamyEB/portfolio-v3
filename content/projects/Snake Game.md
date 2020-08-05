@@ -8,5 +8,5 @@ android: ''
 tech:
   - JavaScript
 company: ""
-showInProjects: true
+showInProjects: false
 ---

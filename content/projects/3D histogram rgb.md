@@ -8,5 +8,5 @@ android: ''
 tech:
   - MATLAB
 company: "Bachelor's degree"
-showInProjects: true
+showInProjects: false
 ---

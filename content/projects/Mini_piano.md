@@ -9,7 +9,7 @@ tech:
   - ReactJS
   - Howler.js
 company: ""
-showInProjects: true
+showInProjects: false
 ---
 
 A simple Mini-Piano project that helped me discover a sound library

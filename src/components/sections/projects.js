@@ -28,10 +28,13 @@ const StyledArchiveLink = styled(Link)`
   margin: 0 auto;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.sm};
+  border: solid 2px #2f7e9e;
+  border-radius: 3px;
   &:after {
     bottom: 0.1em;
   }
 `;
+
 const StyledGrid = styled.div`
   margin-top: 50px;
 
@@ -144,82 +147,84 @@ const Projects = ({ data }) => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledContainer>
-      <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
-      <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
-        view the archive with all projects
-      </StyledArchiveLink>
+    <div></div>
+    // <StyledContainer>
+    //   {/* <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
+    //   <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
+    //     view the archive with all projects
+    //   </StyledArchiveLink>
 
-      <StyledGrid>
-        <TransitionGroup className="projects">
-          {projectsToShow &&
-            projectsToShow.map(({ node }, i) => {
-              const { frontmatter, html } = node;
-              const { github, external, title, tech } = frontmatter;
-              return (
-                <CSSTransition
-                  key={i}
-                  classNames="fadeup"
-                  timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
-                  exit={false}>
-                  <StyledProject
-                    key={i}
-                    ref={el => (revealProjects.current[i] = el)}
-                    tabIndex="0"
-                    style={{
-                      transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
-                    }}>
-                    <StyledProjectInner>
-                      <header>
-                        <StyledProjectHeader>
-                          <StyledFolder>
-                            <FormattedIcon name="Folder" />
-                          </StyledFolder>
-                          <StyledProjectLinks>
-                            {github && (
-                              <StyledIconLink
-                                href={github}
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                                aria-label="GitHub Link">
-                                <FormattedIcon name="GitHub" />
-                              </StyledIconLink>
-                            )}
-                            {external && (
-                              <StyledIconLink
-                                href={external}
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                                aria-label="External Link">
-                                <FormattedIcon name="External" />
-                              </StyledIconLink>
-                            )}
-                          </StyledProjectLinks>
-                        </StyledProjectHeader>
-                        <StyledProjectName>{title}</StyledProjectName>
-                        <StyledProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
-                      </header>
-                      <footer>
-                        {tech && (
-                          <StyledTechList>
-                            {tech.map((tech, i) => (
-                              <li key={i}>{tech}</li>
-                            ))}
-                          </StyledTechList>
-                        )}
-                      </footer>
-                    </StyledProjectInner>
-                  </StyledProject>
-                </CSSTransition>
-              );
-            })}
-        </TransitionGroup>
-      </StyledGrid>
+    //   <StyledGrid>
+    //     <TransitionGroup className="projects">
+    //       {projectsToShow &&
+    //         projectsToShow.map(({ node }, i) => {
+    //           const { frontmatter, html } = node;
+    //           const { github, external, title, tech } = frontmatter;
+    //           return (
+    //             <CSSTransition
+    //               key={i}
+    //               classNames="fadeup"
+    //               timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
+    //               exit={false}>
+    //               <StyledProject
+    //                 key={i}
+    //                 ref={el => (revealProjects.current[i] = el)}
+    //                 tabIndex="0"
+    //                 style={{
+    //                   transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
+    //                 }}>
+    //                 <StyledProjectInner>
+    //                   <header>
+    //                     <StyledProjectHeader>
+    //                       <StyledFolder>
+    //                         <FormattedIcon name="Folder" />
+    //                       </StyledFolder>
+    //                       <StyledProjectLinks>
+    //                         {github && (
+    //                           <StyledIconLink
+    //                             href={github}
+    //                             target="_blank"
+    //                             rel="nofollow noopener noreferrer"
+    //                             aria-label="GitHub Link">
+    //                             <FormattedIcon name="GitHub" />
+    //                           </StyledIconLink>
+    //                         )}
+    //                         {external && (
+    //                           <StyledIconLink
+    //                             href={external}
+    //                             target="_blank"
+    //                             rel="nofollow noopener noreferrer"
+    //                             aria-label="External Link">
+    //                             <FormattedIcon name="External" />
+    //                           </StyledIconLink>
+    //                         )}
+    //                       </StyledProjectLinks>
+    //                     </StyledProjectHeader>
+    //                     <StyledProjectName>{title}</StyledProjectName>
+    //                     <StyledProjectDescription dangerouslySetInnerHTML={{ __html: html }} />
+    //                   </header>
+    //                   <footer>
+    //                     {tech && (
+    //                       <StyledTechList>
+    //                         {tech.map((tech, i) => (
+    //                           <li key={i}>{tech}</li>
+    //                         ))}
+    //                       </StyledTechList>
+    //                     )}
+    //                   </footer>
+    //                 </StyledProjectInner>
+    //               </StyledProject>
+    //             </CSSTransition>
+    //           );
+    //         })}
+    //     </TransitionGroup>
+    //   </StyledGrid>
 
-      <StyledMoreButton onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </StyledMoreButton>
-    </StyledContainer>
+    //   <StyledMoreButton onClick={() => setShowMore(!showMore)}>
+    //     Show {showMore ? 'Less' : 'More'}
+    //   </StyledMoreButton> */}
+
+    // </StyledContainer>
   );
 };
 

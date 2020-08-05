@@ -9,7 +9,7 @@ tech:
   - Python
   - Scrapy
 company: 'Alien6'
-showInProjects: true
+showInProjects: false
 ---
 
 Project proposed by the start-up company Alien6. The objective was to create an expert system to simplify the management of obsolescence of an information system by creating a database, a website and a crawler. 

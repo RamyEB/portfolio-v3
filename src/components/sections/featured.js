@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
@@ -7,6 +8,18 @@ import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+
+
+const StyledArchiveLink = styled(Link)`
+  ${mixins.inlineLink};
+  text-align: center;
+  margin: 100px auto 0px auto;
+  font-family: ${fonts.SFMono};
+  font-size: ${fontSizes.md};
+  &:after {
+    bottom: 0.1em;
+  }
+`;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -206,6 +219,8 @@ const StyledProject = styled.div`
 
 const Featured = ({ data }) => {
   const featuredProjects = data.filter(({ node }) => node);
+  const revealArchiveLink = useRef(null);
+
 
   const revealTitle = useRef(null);
   const revealProjects = useRef([]);
@@ -278,9 +293,13 @@ const Featured = ({ data }) => {
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
+
             );
           })}
       </div>
+      <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
+                  view the archive with all projects
+      </StyledArchiveLink>
     </StyledContainer>
   );
 };

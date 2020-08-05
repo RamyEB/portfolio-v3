@@ -13,5 +13,5 @@ tech:
   - Bootstrap
   - PostgreSQL
 company: "Bachelor's degree"
-showInProjects: true
+showInProjects: false
 ---

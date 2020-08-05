@@ -8,5 +8,5 @@ android: ''
 tech:
   - C
 company: "Bachelor's degree"
-showInProjects: true
+showInProjects: false
 ---

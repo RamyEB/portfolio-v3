@@ -10,5 +10,5 @@ tech:
   - CSS
   - PHP
 company: 'Two-year degree'
-showInProjects: true
+showInProjects: false
 ---
