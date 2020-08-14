@@ -50,6 +50,6 @@
 
    <center>
 
-   Credit to [brittanychiang.com](https://brittanychiang.com).
+   Credit to [https://github.com/bchiang7](https://github.com/bchiang7).
 
 </center>
