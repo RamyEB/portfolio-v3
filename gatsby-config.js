@@ -18,7 +18,7 @@ module.exports = {
       options: {
         name: 'El behedy Ramy',
         short_name: 'ElbehedyRamy',
-        start_url: '/',
+        start_url: 'https://ramyelbehedy.com',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',

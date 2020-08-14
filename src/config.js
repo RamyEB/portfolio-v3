@@ -1,13 +1,12 @@
-
 module.exports = {
   siteTitle: 'Ramy EL BEHEDY | Software Engineer',
   siteDescription:
     'I\'m a software engineer based in Paris (France) and student at EPITA (Computer Engineering School).',
   siteKeywords:
     'Ramy EL BEHEDY, Ramy, el behedy, elbehedy, software engineer, front-end engineer, web developer, javascript, Paris',
-  siteUrl: 'https://brittanychiang.com',
+  siteUrl: 'https://ramyelbehedy.com/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
+  googleAnalyticsID: 'G-G2850RM73T',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Ramy EL BHEHEDY',
   location: 'Paris, France',
@@ -21,7 +20,7 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ramy-elbehedy/',
-    }
+    },
   ],
 
   navLinks: [

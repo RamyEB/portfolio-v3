@@ -2,8 +2,8 @@
 date: '3'
 title: "P'tite Vadrouille"
 cover: './ptitv.png'
-github: '#'
-external: '#'
+github: 'https://github.com/RamyEB/ptite_vadrouille'
+external: ''
 tech:
   - Laravel
   - Bootstrap

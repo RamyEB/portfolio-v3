@@ -1,7 +1,7 @@
 ---
 date: '2020-1-3'
 title: "P'tite vadrouille"
-github: ''
+github: 'https://github.com/RamyEB/ptite_vadrouille'
 external: ''
 ios: ''
 android: ''
@@ -13,7 +13,8 @@ tech:
   - Leaflet
   - MySQL
   - Swup
-company: ""
+company: ''
 showInProjects: false
 ---
+
 Website in the form of a self-completion mini-game, designed to guide and motivate tourism in France. The objective is to visit as many places as possible by completing a map.

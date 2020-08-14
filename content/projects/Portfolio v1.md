@@ -1,8 +1,8 @@
 ---
 date: '2018-12-16'
 title: 'Portfolio v1'
-github: ''
-external: ''
+github: 'https://github.com/RamyEB/portfolio-v1'
+external: 'https://portfolio-v1-6b53e.firebaseapp.com/'
 ios: ''
 android: ''
 tech:
