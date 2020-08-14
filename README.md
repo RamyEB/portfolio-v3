@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/RamyEB/portfolio-v3/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  ramyelbehedy.com
 </h1>
 <p align="center">
   Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.firebase.com/" target="_blank">Firebase</a>
@@ -48,6 +48,4 @@
    npm run serve
    ```
 
-<p align="center">
-Credit to [brittanychiang.com](https://brittanychiang.com).
-</p>
+   Credit to [brittanychiang.com](https://brittanychiang.com).
